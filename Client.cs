@@ -54,7 +54,7 @@ namespace Client
             }
         }
 
-        //memeriksa apakah ada data kiriman yang masuk dari server
+        //memeriksa apakah ada data yang masuk
         static void ReceiveMessage()
         {
             while (true) { //jika benar lakukan pengulangan
@@ -74,7 +74,7 @@ namespace Client
                 }
                 catch (Exception e) { //proses ketika server keluar dari program
                     Console.Write(e.Message); //tampilkan pesan (unable...)
-                    break; 
+                    break; //agar program tidak looping
                 }
             }
         }

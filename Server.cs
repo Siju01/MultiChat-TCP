@@ -15,6 +15,7 @@ namespace Server
         string userName;
         TcpClient client;
         ServerObject server;
+        SaveData save = new SaveData();
         
         //membuat id baru disetiap koneksi baru
         public ClientObject(TcpClient tcpClient, ServerObject serverObject) { 
@@ -41,6 +42,8 @@ namespace Server
                         message = String.Format("{0}: {1}", userName, message); 
                         Console.WriteLine(message); 
                         server.BroadcastMessage(message, this.Id);
+                        
+                        save.writeMessage(message);
                     }
                     catch {
                         message = String.Format("{0}: left the chat", userName);
@@ -56,6 +59,17 @@ namespace Server
             finally {
                 server.RemoveConnection(this.Id); 
                 Close(); 
+            }
+        }
+        
+        //Menyimpan data ke dalam file .txt
+        class SaveData
+        {
+            private List<string> saveMessages = new List<string>();
+            public void writeMessage(string message)
+            {
+                saveMessages.Add(message);
+                File.WriteAllLines("D:/Pens/Semester 4/Arsitektur Jaringan & Komputer/FP MultiCLient/chats.txt", saveMessages);
             }
         }
 

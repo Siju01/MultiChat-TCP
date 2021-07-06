@@ -16,6 +16,7 @@ namespace Server
         TcpClient client;
         ServerObject server;
         
+        //membuat id baru disetiap koneksi baru
         public ClientObject(TcpClient tcpClient, ServerObject serverObject) { 
             Id = Guid.NewGuid().ToString(); 
             client = tcpClient;

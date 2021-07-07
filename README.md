@@ -24,7 +24,7 @@ ke lokasi anda .txt file
 
 # Flowchart
 Berikut adalah alur pengiriman data pada multiclient socket :
-![FlowChat](https://user-images.githubusercontent.com/63763376/124768947-478b4d00-df63-11eb-9579-4ef3b4fcaa9d.jpg)
+![FlowChat](https://user-images.githubusercontent.com/63763376/124770218-5b837e80-df64-11eb-8dd6-749818a12ce1.jpg)
 
 # Result
 ![ss](https://user-images.githubusercontent.com/63763376/124595744-99f93a80-de8b-11eb-9a6f-6863f2df8ec4.png)

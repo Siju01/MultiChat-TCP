@@ -22,7 +22,7 @@ ke lokasi anda .txt file
 4. Anda harus menjalankan program server terlebih dahulu, kemudian jalankan program client.
 5. Anda harus input username terlebih dahulu agar client dapat terkoneksi ke server.
 
-# Flowchart
+# Flowchart TCP
 Berikut adalah alur pengiriman data pada multiclient socket :
 ![tcpChat](https://user-images.githubusercontent.com/63763376/124717875-bc449400-df2f-11eb-9b38-bcc282c4240a.jpg)
 

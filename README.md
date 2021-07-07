@@ -24,12 +24,8 @@ ke lokasi anda .txt file
 
 # Flowchart Chat
 Berikut adalah flowchart chat pada server yang menangani client
-![Flowchart MultiChat](https://user-images.githubusercontent.com/63763376/124786674-1c5c2a00-df72-11eb-9b6d-cc9ffe5bb1fc.png)
+![Flowchart MultiChat (1)](https://user-images.githubusercontent.com/63763376/124834858-990afa80-dfaa-11eb-8068-d466db62b7dc.png)
 
-
-# Flowchart TCP
-Berikut adalah alur pengiriman data pada multiclient socket :
-![FlowChat](https://user-images.githubusercontent.com/63763376/124770218-5b837e80-df64-11eb-8dd6-749818a12ce1.jpg)
 
 # Result
 ![ss](https://user-images.githubusercontent.com/63763376/124595744-99f93a80-de8b-11eb-9a6f-6863f2df8ec4.png)

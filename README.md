@@ -24,7 +24,7 @@ ke lokasi anda .txt file
 
 # Flowchart Chat
 Berikut adalah flowchart chat pada server yang menangani client
-![Flowchart MultiChat (1)](https://user-images.githubusercontent.com/63763376/124834858-990afa80-dfaa-11eb-8068-d466db62b7dc.png)
+![Flowchart MultiChat](https://user-images.githubusercontent.com/63763376/124835005-d3749780-dfaa-11eb-8eed-04246011e17d.png)
 
 
 # Result

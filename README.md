@@ -23,6 +23,7 @@ ke lokasi anda .txt file
 5. Anda harus input username terlebih dahulu agar client dapat terkoneksi ke server.
 
 # Flowchart Chat
+Berikut adalah flowchart chat pada server yang menangani client
 ![Flowchart MultiChat](https://user-images.githubusercontent.com/63763376/124786674-1c5c2a00-df72-11eb-9b6d-cc9ffe5bb1fc.png)
 
 

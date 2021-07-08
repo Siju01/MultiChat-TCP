@@ -27,5 +27,9 @@ Berikut adalah flowchart chat pada server yang menangani client
 ![Flowchart MultiChat](https://user-images.githubusercontent.com/63763376/124835005-d3749780-dfaa-11eb-8eed-04246011e17d.png)
 
 
+# Flowchart TCP
+![FlowChat](https://user-images.githubusercontent.com/63763376/124850585-1ba3b200-dfcb-11eb-917c-1528e029aa30.jpg)
+
+
 # Result
 ![ss](https://user-images.githubusercontent.com/63763376/124595744-99f93a80-de8b-11eb-9a6f-6863f2df8ec4.png)
